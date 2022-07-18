@@ -28,8 +28,8 @@ services:
       - db
     # Configura as variáveis de ambiente dentro do container
     environment:
-      MYSQL_USER: felipe
-      MYSQL_PASSWORD: 040812fe
+      MYSQL_USER: root
+      MYSQL_PASSWORD: password
       HOSTNAME: db
 
   # Serviço que irá rodar o banco de dados
